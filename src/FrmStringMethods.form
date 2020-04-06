@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
+                          <Component id="lblTitle" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="lblInstructions4" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" attributes="0">
+                                              <Component id="txtIdent1" min="-2" pref="113" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                                              <Component id="txtIdent2" min="-2" pref="113" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="btnIdentical" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="lblIdentical" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="lblInstructions2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="txtChar4" min="-2" pref="138" max="-2" attributes="0"/>
+                                                      <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
+                                                      <Component id="btnChar4" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Component id="lblInstructions3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="lblChar4Ans" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Component id="txtCaps" min="-2" pref="138" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
+                                              <Component id="btnCaps" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="lblCapsAns" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="txtLength" min="-2" pref="138" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
+                                          <Component id="btnLength" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                                          <Component id="lblLengthAns" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="lblInstructions1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblInstructions5" min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                          <Component id="lblInstructions7" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="txtReplace" min="-2" pref="125" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
+                                              <Component id="btnReplace" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="86" max="-2" attributes="0"/>
+                                              <Component id="lblReplaceAns" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="txtFound1" min="-2" pref="114" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                                          <Component id="txtFound2" min="-2" pref="32" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                                          <Component id="btnFound" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
+                                          <Component id="lblFoundAns" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="lblInstructions6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txtLong" alignment="0" min="-2" pref="112" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="btnLong" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+                                          <Component id="lblLongAns" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="60" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="lblTitle" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="lblInstructions1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtLength" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnLength" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblLengthAns" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="lblInstructions2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtCaps" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnCaps" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblCapsAns" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="lblInstructions3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtChar4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnChar4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblChar4Ans" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="lblInstructions4" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtIdent1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnIdentical" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblIdentical" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtIdent2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="lblInstructions5" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btnFound" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblFoundAns" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtFound1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtFound2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="34" max="32767" attributes="0"/>
+                  <Component id="lblInstructions6" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btnLong" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtLong" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblLongAns" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <Component id="lblInstructions7" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btnReplace" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblReplaceAns" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtReplace" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblTitle">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tw Cen MT" size="24" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="SUPER STRING SOFTWARE"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblInstructions1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter a String. The program will output the number of characters in the String."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtLength">
+        </Component>
+        <Component class="javax.swing.JButton" name="btnLength">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Length"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLengthActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblLengthAns">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="..."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblInstructions2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter a String using lowercase letters. The program will output the String in all capital letters."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtCaps">
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCaps">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="All Caps"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCapsActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblCapsAns">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="..."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnChar4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="4th Spot"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnChar4ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtChar4">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblInstructions3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter a String. The program will output the character at the fourth spot."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblChar4Ans">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="..."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnIdentical">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Identical?"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnIdenticalActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtIdent1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblInstructions4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter two Strings. The program will output whether or not they are identical."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblIdentical">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="..."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnFound">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Letter Found?"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFoundActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtIdent2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblInstructions5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter a String and a letter. The program will output whether or not the letter is found in the String."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblFoundAns">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="..."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnLong">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Characters 4 to 6"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLongActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtFound1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblInstructions6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter a String that is at least 8 characters long. The program will output characters 4 to 6."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblLongAns">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="..."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnReplace">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Replaces &quot;a&quot;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnReplaceActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtFound2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblInstructions7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter a String that contains at least one &quot;a&quot;. The program will then replace all occurences of the letter &quot;a&quot; with &quot;x&quot;."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblReplaceAns">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="..."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtLong">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtReplace">
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
